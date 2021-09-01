@@ -57,7 +57,7 @@ dictionary = {
         "reload": 60,
         "magazin_max": 50,
         "magazin_counter": 0,
-        "ticks_per_shot": 20,
+        "ticks_per_shot": 30,
         "ticks_per_shot_counter": 0,
         "exploding": False,
         "exploding_duration": 200,

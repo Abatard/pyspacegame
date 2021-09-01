@@ -45,10 +45,11 @@ def main():
         pygame.display.flip()
 
         #makes 60 fps
-        #while (time.time() - t <= 0.016):
-        #    pass
-        print(time.time() - t)
+        while (time.time() - t <= 0.016):
+            pass
+        print("ms/frame :",round((time.time() - t)*1000, 2), " |  fps:", round(1/(time.time() - t),1))
         t = time.time()
+        print()
 
 
 if __name__ == "__main__":

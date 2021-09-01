@@ -19,7 +19,7 @@ class Sprite_Handler:
         self.explosions.update()
 
         self.out_of_screen_sprite_deleter()
-        print(self.ships, self.bullets, self.explosions, self.guns)
+        print("ships :", len(self.ships),"|  guns :", len(self.guns)," |  bullets:", len(self.bullets)," |  explosions:", len(self.guns))
 
     def create_wall(self):
         self.walls.add(wall_class.Wall(self, 0, 0, 1280, 10))
